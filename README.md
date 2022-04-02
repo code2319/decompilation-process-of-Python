@@ -9,7 +9,7 @@ Using pyinstxtrator.py, enter the command in cmd (from venv): `python pyinstxtra
 
 After successful decompression, a [XXX. Exe] extracted folder will appear in the same path, which contains the main program without any suffix. What we need to decompile is this file, and others are dependent libraries, such as pyz extracted folder. At this point, we may wonder why this file is not a. pyc file? This may be one of the shortcomings of the pyinstxtrator. The main program converted is not in the right format. We need to fix it manually.
 
-### 2. Repair pyc file
+### 2. Repair .pyc file
 If you directly change the suffix of the main file to main.pyc for decompilation, an error will occur.
 ![изображение](https://user-images.githubusercontent.com/28976238/161386297-21ad985d-6dd5-4767-b4de-f8c3503d481c.png)
 
@@ -23,7 +23,7 @@ Python 3.7.2's:
 
 
 ### 3. How to get magic number
-Compile one by yourself to see how many pyinstaller is required for compiling py files, and modules can be installed with pip.
+Compile one by yourself to see how many pyinstaller is required for compiling py files, and modules can be installed with pip.  
 ![изображение](https://user-images.githubusercontent.com/28976238/161386452-40c2d8b3-6ca5-4109-aa77-e36120a200a0.png)
 
 Hexadecimal view its magic number (`C:\Users\Maksim\desktop\1\__pycache__`)  
